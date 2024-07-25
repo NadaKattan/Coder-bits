@@ -1,0 +1,191 @@
+*{
+    margin: 0 auto;
+}
+.link a {
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.link a, .logo-link {
+    color: white;
+    font-family: Arial;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    height: 70px;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+.links, .logo {
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    /*border:10 px solid black;*/
+    width: 55px;
+    height:55px;
+    border-radius: 50%;
+    padding-right: 5px;
+}
+header{
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* width: 100vw;*/
+    height:125vh; 
+    /* margin-right: 300px; */ 
+    position: relative; 
+}
+/*.container2{
+    display: flex;
+    justify-content: center;
+    /*justify-content: flex-end;}*/
+
+.img-content{
+    font-family: Arial;
+    color:rgb(255,252,243);
+    padding: 250px 0 250px 240px;
+}
+.img-content button{
+    background-color:transparent;
+    color: white;
+    border:2px solid white;
+    border-radius: 6%;
+    padding:10px;
+    
+}
+button{
+    cursor: pointer;
+}
+/*.fa-solid{
+    margin-right: 20px;
+    width: 60px;
+    height: 40px;
+    font-size: 30px; 
+    color: black;
+} */
+.overlayer{
+    position:absolute;
+    background-color: rgba(207, 172, 131, 0.739);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.container2{
+    padding-top: 80px;
+    padding-left:240px;
+    font-family: Arial;
+}
+.ABOUT-ME h2, .about-body h2{
+    font-family:cursive;
+    font-weight: 900;
+}
+.about-body{
+    display:flex;
+    flex-direction: row;
+    margin-top:40px;
+}
+.about-body-img{
+    margin-right:20px;
+}
+.fa-user {
+    margin-right: 5px;
+    /* width: 60px; */
+    height: 40px;
+    /* font-size: 30px; */
+}
+.work{
+    margin-top:40px;
+    background-image: url("../images/project-counter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center; 
+    font-family: Arial;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+.work h3{
+    color:white
+}
+.work p{
+    color:rgb(192,55,64);
+}
+.work-box{
+    height:80px;
+    width:300px;
+    border-color:rgb(255,252,243, 0.234);
+    border-style:solid;
+    border-width:3px;
+    padding: 10px;
+}
+.work-box h3,.work-box p{
+    text-align: center;
+}
+.My-Services{
+    background-color: rgb(219,54,70);
+    color: white;
+    border:none;
+    border-radius: 5%;
+    width: 8%;
+    margin-right: 46%;
+    margin-left: 46%;
+    margin-top:80px;  
+    height:40px; 
+} 
+.hr1{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(197,65,75);
+    height: 1px;
+}
+.hr2{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(197,65,75);
+    height: 1px;
+    margin-top: 1%;
+}
+.Hire-Me{
+    padding-top: 80px;
+    font-family: Arial;
+}
+.Hire-Me h2{
+    text-align: center;
+}
+.Designers{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    padding-top: 40px;
+    margin-bottom: 60px;
+    margin-right:200px;
+    margin-left:200px;
+}
+.Omar-Abdo, .Omar-Khaled{
+    border:4px solid black;
+    border-radius: 1%;
+}
+.Omar-Abdo h3, .Omar-Khaled h3{
+    text-align: center;
+    color: rgb(197,65,75);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
